@@ -1,16 +1,17 @@
 package com.demo.project.sdk.exam;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.stream.Stream;
 
 public class Test2 {
 
-    public static void main(String[] args) {
-
-        s_test1();
-        s_test2();
-
-    }
+//    public static void main(String[] args) {
+//
+//        s_test1();
+//        s_test2();
+//
+//    }
 
     public static void s_test1(){
         ArrayList<Integer> list= new ArrayList<Integer>();
@@ -22,7 +23,7 @@ public class Test2 {
         // 컬렉션에서 스트림 생성
         Stream<Integer> stream=list.stream();
         // forEach() 메소드를 이용한 스트림 요소의 순차 접근
-        stream.forEach(System.out.println(""));
+//        stream.forEach(System.out.println(""));
     }
 
     public static void s_test2(){
